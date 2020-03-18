@@ -1,0 +1,43 @@
+:root {
+	--primary-color: hsl(0, 0%, 96%);
+	--secondary-color: hsl(0, 0%, 6%);
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+}
+
+header {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	padding: 1em;
+}
+
+header a {
+	color: inherit;
+}
+
+main {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 300px);
+	grid-gap: 1em;
+	padding: 1em;
+}
+
+#cartButton {
+	font-size: 150%;
+}
+
+#cartButton img {
+	height: 1em;
+	width: auto;
+}
+
+.productCard img {
+	width: 100%;
+	height: auto;
+}
