@@ -30,5 +30,7 @@
 			<button class="">Læg i kurv</button>
 		</article>
 	</main>
+
+	<script src="./app.js" defer></script>
 </body>
 </html>
